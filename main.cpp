@@ -3,7 +3,7 @@
 using namespace ajay;
 int main() {
 
-    cout << "Hello, World!";
+    ajay::cout << "Hello, World!";
 
     return 0;
 }
