@@ -1,9 +1,9 @@
 #include <iostream>
 
-using namespace ajay;
+using namespace std;
 int main() {
 
-    ajay::cout << "Hello, World!";
+    ::cout << "Hello, World!";
 
     return 0;
 }
