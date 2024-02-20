@@ -8,7 +8,7 @@ int main() {
     cin >> a;
     cin >> b;
 
-    cout << (float)a+b;
+    cout << (float)a+(float)b << endl;
 
     average = ((float)a+b)/2;
 
