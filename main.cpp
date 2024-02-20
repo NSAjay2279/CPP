@@ -6,9 +6,9 @@ using namespace std;
 int main()
 {
     int radius;
-    float s_area, volume, PI;
+    float s_area, PI;
 
-    PI = (float)(22/7);
+    PI = fo22/7);
 
     cout << "Please enter the radius of the sphere!" << endl;
     cin >> radius;
