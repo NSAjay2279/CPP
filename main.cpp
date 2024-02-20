@@ -10,17 +10,11 @@ int main()
     cout << "enter your gpa: ";
     cin >> gpa;
 
-    switch(gpa) {
-        case 0:
-            cout << "terrible";
-            break;
-        case 1:
-            cout << "Satisfactory";
-            break;
-        default:
-            cout << "invalid gpa";
-            break;
+    if(!gpa) {
+       cout << "You typed 0";
     }
-
+    else {
+        cout << "Welcome";
+    }
     return 0;
 }
