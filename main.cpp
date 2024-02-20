@@ -1,3 +1,4 @@
+#include <iomanip> // Include iomanip for setting precision
 #include <iostream>
 
 using namespace std;
@@ -10,9 +11,11 @@ int main()
     cin >> a;
     cin >> b;
 
-    cout << fixed << (float)a + (float)b << endl;
+    cout << fixed << setprecision(2); // Set precision to 2 decimal places
 
-    average = ((float)a + b) / 2;
+    cout << (float) a + (float) b << endl;
+
+    average = ((float) a + b) / 2;
 
     cout << "Hello, World! " << average << endl;
 
