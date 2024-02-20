@@ -10,7 +10,9 @@ int main()
     cin >> a;
     cin >> b;
 
-    cout << ((float) a + b) << endl; // Cast a to float before addition
+    float add = ((float) a + b);
+
+    cout << add << endl;
 
     average = ((float) a + b) / 2;
 
