@@ -8,7 +8,7 @@ int main()
     int radius;
     float s_area, PI;
 
-    PI = fo22/7);
+    PI = (float)22/7;
 
     cout << "Please enter the radius of the sphere!" << endl;
     cin >> radius;
