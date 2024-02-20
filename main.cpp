@@ -10,6 +10,8 @@ int main()
     i = &a;
     f = &b;
     cout << i << endl;
+    cout << &i << endl;
     cout << f << endl;
+    cout << &f << endl;
     return 0;
 }
