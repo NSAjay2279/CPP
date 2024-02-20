@@ -5,9 +5,12 @@ int main() {
     int a,b;
     float average;
 
-    average = a+b/2;
-    
-    cout << "Hello, World!" << average;
+    cin >> a;
+    cin >> b;
+
+    average = (a+b)/2;
+
+    cout << "Hello, World! " << average << endl;
 
     return 0;
 }
