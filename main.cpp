@@ -2,8 +2,12 @@
 
 using namespace std;
 int main() {
+    int a,b;
+    float average;
 
-    cout << "Hello, World!";
+    average = a+b/2;
+    
+    cout << "Hello, World!" << average;
 
     return 0;
 }
