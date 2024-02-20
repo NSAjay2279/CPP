@@ -4,11 +4,7 @@
 using namespace std;
 
 int main() {
-    int n;
-
-    cin >> n;
-
-    longlong long int val = pow(2, n);
+    int scores[int];
 
     cout << val << endl;
 }
