@@ -24,8 +24,7 @@ int main()
     }
 
     // Accessing elements of the 4D array
-    cout << "Number of books at library 1, genre 2, author 3, published in year 4: " << libraryBooks[0][1][2][3] << endl;
-    cout << "Number of books at library 3, genre 4, author 7, published in year 10: " << libraryBooks[2][3][6][9] << endl;
+    cout << "Number of books at library 1, genre 2, author 3, published in year 4: " << libraryBooks[0][0][0][1] << endl;
 
     return 0;
 }
