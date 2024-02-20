@@ -8,9 +8,9 @@ int main() {
     cin >> a;
     cin >> b;
 
-    cout << (float)a+(float)b << endl;
+    cout << (float)a + (float)b << endl;
 
-    average = ((float)a+b)/2;
+    average = ((float)a + b)/2;
 
     cout << "Hello, World! " << average << endl;
 
