@@ -12,7 +12,8 @@ int main()
     cin >> radius;
 
     s_area = 4 * (22/7) * radius * radius;
-    volume = 
+
+    cout << s_area << endl;
 
     return 0;
 }
