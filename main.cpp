@@ -5,19 +5,14 @@ using namespace std;
 
 int main()
 {
-    int a, b;
-    float average;
+    int radius;
+    float s_area, volume;
 
-    cin >> a;
-    cin >> b;
+    cout << "Please enter the radius of the sphere!" << endl;
+    cin >> radius;
 
-    cout << fixed << setprecision(2); // Set precision to 2 decimal places
-
-    cout << (float) a + (float) b << endl;
-
-    average = ((float) a + b) / 2;
-
-    cout << "Hello, World! " << average << endl;
+    s_area = 4 * (22/7) * radius * radius;
+    volume = 
 
     return 0;
 }
