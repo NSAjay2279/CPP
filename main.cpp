@@ -10,7 +10,7 @@ int main()
     cin >> a;
     cin >> b;
 
-    cout << float((float)a + (float)b) << endl;
+    cout << fixed << (float)a + b << endl;
 
     average = ((float)a + b) / 2;
 
