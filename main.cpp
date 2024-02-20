@@ -3,7 +3,9 @@
 
 using namespace std;
 
-int main()
-{
-    cout << std::pow(2, 100) << endl;
+int main() {
+    int n;
+    cin >> n;
+    long long long int val = pow(2, n);
+    cout << val << endl;
 }
