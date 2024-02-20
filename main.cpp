@@ -5,17 +5,22 @@ using namespace std;
 
 int main()
 {
-    int radius;
-    float s_area, PI;
+    int gpa;
 
-    PI = (float)22/7;
+    cout << "enter your gpa: ";
+    cin >> gpa;
 
-    cout << "Please enter the radius of the sphere!" << endl;
-    cin >> radius;
-
-    s_area = 4 * PI * radius * radius;
-
-    cout << s_area << endl;
+    switch(gpa) {
+        case 0:
+            cout << "terrible";
+            break;
+        case 1:
+            cout << "Satisfactory";
+            break;
+        default:
+            cout << "invalid gpa";
+            break;
+    }
 
     return 0;
 }
