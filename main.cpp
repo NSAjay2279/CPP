@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
     string text2 = "Quite simply one of the most";
-    char text1[] = "beautiful lyrics ever written, ";
+    string text1 = "beautiful lyrics ever written, ";
 
-    strcat(text1, text2);
+    text1 = text1 + text2;
 
     cout << text1 << endl;
     cout << text2 << endl;
