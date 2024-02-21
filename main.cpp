@@ -2,19 +2,19 @@
 #include <string>
 using namespace std;
 
+void add(int, int, int = 0, int);
+
 int main()
 {
-    string fullname, firstname, lastname;
-    firstname = to_string(10);
-    lastname = to_string(20);
-
-    fullname = firstname + lastname;
-
-    cout << firstname << endl;
-    cout << lastname << endl;
-    cout << fullname << endl;
-    cout << fullname.length() << endl;
-    cout << fullname.size() << endl;
+    int a, b, c, d;
+    cout << "Enter 4 values" << endl;
+    cin >> a >> b >> c >> d;
+    add(a, b, c, d);
+    add(a, b);
 
     return 0;
+}
+
+void add(int a, int b, int c, int d) {
+    cout << a + b + c + d << endl;
 }
