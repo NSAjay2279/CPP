@@ -7,9 +7,9 @@ int main()
     char text2[50] = "Quite simply one of the most";
     char text1[100] = "beautiful lyrics ever written, ";
 
-    strcat(text1, text2);
+    strcpy(text1, text2);
 
-    cout << text1 << endl;
-    cout << text2 << endl;
+    cout << strlen(int) << endl;
+    cout << strlen(int) << endl;
     return 0;
 }
