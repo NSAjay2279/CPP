@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    string text2 = "Quite simply one of the most";
-    string text1 = "beautiful lyrics ever written, ";
+    char text2[] = "Quite simply one of the most";
+    char text1[] = "beautiful lyrics ever written, ";
 
-    text1 = text1 + text2;
+    strcat(text1, text2);
 
     cout << text1 << endl;
     cout << text2 << endl;
