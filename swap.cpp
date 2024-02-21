@@ -1,17 +1,14 @@
 #include <iostream>
 using namespace std;
 
-void swap_m(int*, int*);
+void swap_m(int *, int *);
 
 int main() {
-    int a, b;
-    cout << "Enter values of a & b" << endl;
-    cin >> a >> b;
+    int a = 3, b = 4;
     swap_m(&a, &b);
-    cout << "Outside Fn, A: " << a << endl << "B: " << b << endl;
-    cout << "X IS: " << x << endl;
+    cout << "Outside Fn, A: " << a << " And B: " << b << endl;
 
-    return 0
+    return 0;
 }
 
 void swap_m(int *a, int *b) {
