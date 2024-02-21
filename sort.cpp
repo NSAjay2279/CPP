@@ -29,5 +29,14 @@ void sortArray(int* arr, int size) {
             }
         }
     }
+    return;
+}
+
+void swap(int* a, int* b) {
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+    return;
 }
 
