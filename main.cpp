@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void add(int, int, int = 0, int);
+void add(int, int, int = 0, int = 0);
 
 int main()
 {
