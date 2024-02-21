@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    char text2[50] = "Quite simply one of the most";
-    char text1[100] = "beautiful lyrics ever written, ";
+    char text2[] = "Quite simply one of the most";
+    char text1[] = "beautiful lyrics ever written, ";
 
-    strcpy(text1, text2);
+    strcat(text1, text2);
 
-    cout << strlen(int) << endl;
-    cout << strlen(int) << endl;
+    cout << text1 << endl;
+    cout << text2 << endl;
     return 0;
 }
