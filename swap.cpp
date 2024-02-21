@@ -19,5 +19,5 @@ void swap_m(int *a, int *b) {
     temp = *b;
     *b = *a;
     *a = temp;
-    cout << "Inside Fn, a: " << a << ". And b is: " << b << endl;
+    cout << "Inside Fn, a: " << *a << ". And b is: " << *b << endl;
 }
