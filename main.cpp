@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     string fullname, firstname, lastname;
-    firstname = to_string(10);
-    lastname = to_string(20);
+    firstname = 10;
+    lastname = 20;
 
     fullname = firstname + lastname;
 
