@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 #include <string>
 using namespace std;
 
@@ -11,8 +10,9 @@ int main()
 
     fullname = firstname + lastname;
 
-    cout << fullname.length();
-    cout << fullname.size();
+    cout << fullname << endl;
+    cout << fullname.length() << endl;
+    cout << fullname.size() << endl;
 
     return 0;
 }
