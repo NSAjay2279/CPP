@@ -1,20 +1,21 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-void add(int, int, int = 0, int = 0);
+void swap(int*, int*);
+void sortArray(int*, int);
 
-int main()
-{
-    int a, b, c, d;
-    cout << "Enter 4 values" << endl;
-    cin >> a >> b >> c >> d;
-    add(a, b, c, d);
-    add(a, b);
+int main() {
+    
+    int n = 5;
+    int arr[5] = {1,2,3,4,5};
+    cout << "Sorting..." << endl;
+    sortArray(arr, n);
+    cout << "Array is sorted now..." << endl;
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << "\t";
+    }
+    cout << endl;
 
     return 0;
 }
 
-void add(int a, int b, int c, int d) {
-    cout << a + b + c + d << endl;
-}
