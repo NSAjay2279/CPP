@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    char lyrics2[] = "tu raat diwani, mai zardsitara";
-    char lyrics1[] = "oh tere sang yaara khush ranga bhara, ";
+    char text2[50] = "Quite simply one of the most";
+    char text1[50] = "beautiful lyrics ever written, ";
 
-    strcat(lyrics1, lyrics2);
+    strcat(text1, text2);
 
-    cout << lyrics1 << endl;
-    cout << lyrics2 << endl;
+    cout << text1 << endl;
+    cout << text2 << endl;
     return 0;
 }
