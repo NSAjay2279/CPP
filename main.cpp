@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     char text2[50] = "Quite simply one of the most";
-    char text1[50] = "beautiful lyrics ever written, ";
+    char text1[100] = "beautiful lyrics ever written, ";
 
     strcat(text1, text2);
 
