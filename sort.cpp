@@ -24,6 +24,8 @@ void sortArray(int* arr, int size) {
         for (int j = i+1; j < size; j++) {
             if (arr[i] <= arr[j]) {
                 continue;
+            } else {
+                swap(arr+i, arr+j);
             }
         }
     }
