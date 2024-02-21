@@ -5,12 +5,14 @@ using namespace std;
 
 int main()
 {
-    char text2[] = "Quite simply one of the most";
-    char text1[] = "beautiful lyrics ever written, ";
+    string fullname, firstname, lastname;
+    firstname = 10;
+    lastname = 20;
 
-    strcat(text1, text2);
+    fullname = firstname + lastname;
 
-    cout << text1 << endl;
-    cout << text2 << endl;
+    cout << fullname.length();
+    cout << fullname.size();
+
     return 0;
 }
