@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void swap_m(int, int);
+void swap_m(int*, int*);
 
 int main() {
     int a, b;
