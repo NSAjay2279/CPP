@@ -10,8 +10,8 @@ class Testing {
     int c;
     float d;
     void set_default(void) {
-        a = 0;
-        b = 0;
+        this->a = 0;
+        this->b = 0;
     }
     void print_values(void) {
         cout << "a: " << a << endl;
