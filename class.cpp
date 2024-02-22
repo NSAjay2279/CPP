@@ -14,10 +14,10 @@ class Testing {
         this->b = 0;
     }
     void print_values(void) {
-        cout << "a: " << a << endl;
-        cout << "b: " << b << endl;
-        cout << "c: " << c << endl;
-        cout << "d: " << d << endl;
+        cout << "a: " << this->a << endl;
+        cout << "b: " << this->b << endl;
+        cout << "c: " << this->c << endl;
+        cout << "d: " << this->d << endl;
     }
 };
 
