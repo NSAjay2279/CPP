@@ -9,10 +9,13 @@ class Testing {
   public:
     int c;
     float d;
-    void set_default(void) {
+    Testing() {
         this->a = 0;
         this->b = 0;
+        this->c = 0;
+        this->d = 0;
     }
+
     void print_values(void) {
         cout << "a: " << this->a << endl;
         cout << "b: " << this->b << endl;
@@ -22,10 +25,8 @@ class Testing {
 };
 
 int main() {
-    Testing x;
-    x.c = 5;
-    x.d = 8;
-    x.set_default();
+    Testing x, y;
     x.print_values();
+    y.print_values();
     return 0;
 }
