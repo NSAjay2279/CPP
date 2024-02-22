@@ -2,7 +2,9 @@
 using namespace std;
 
 int main() {
-    // This code allocates two pointers to 
+    // This code allocates two pointers, which can point to integers
     int *x;
     int *y;
+    // initially pointers don't point to anything
+    // The things pointers point to are called pointees
 }
