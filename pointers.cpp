@@ -7,5 +7,5 @@ int main() {
     int *y;
     // initially pointers don't point to anything
     // The things pointers point to are called pointees
-    // 
+    // Dereference the pointer x to store the number 42 into its pointee
 }
