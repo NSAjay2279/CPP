@@ -22,7 +22,6 @@ class ComplexNumbers {
 };
 
 
-
 int main() {
     ComplexNumbers a, b, c;
     a.setValues(1, 2);  // mutator
