@@ -1,21 +1,22 @@
 #include <iostream>
 using namespace std;
 
-struct complex_number {
+class ComplexNumbers {
     int real;
     int imag;
+    public:
+    ComplexNumbers(ComplexNumbers z) {
+        real = z.real;
+        
+    }
 };
 
 complex_number adding_complex(complex_number, complex_number);
 
 int main() {
-    complex_number num1, num2, num3;
-    num1.real = 20;
-    num1.imag = 10;
-    num2.real = 30;
-    num2.imag = 40;
-    num3 = adding_complex(num1, num2);
-    cout << num3.real << " + i" << num3.imag;
+    ComplexNumbers b(2,3);
+    ComplexNumbers c(b);
+    c.display();
 
     return 0;
 }
