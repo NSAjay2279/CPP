@@ -7,7 +7,10 @@ class ComplexNumbers {
     public:
     ComplexNumbers(ComplexNumbers z) {
         real = z.real;
-        
+        imag = z.imag;
+    }
+    void display(void) {
+        cout << real << " + i" << imag << endl;
     }
 };
 
