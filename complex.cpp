@@ -13,11 +13,19 @@ class ComplexNumbers {
         real = z.real;
         imag = z.imag;
     }
+    void setV(int, int);
+    bool isReal(void);
+    ComplexNumbers findProduct(ComplexNumbers);
+
+
     void display(void);
 };
 
 void ComplexNumbers::display(void) {
     cout << real << " + i" << imag << endl;
+}
+void ComplexNumbers::setValues(int x, int y) {
+    re
 }
 
 int main() {
