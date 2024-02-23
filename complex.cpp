@@ -5,7 +5,7 @@ class ComplexNumbers {
     int real;
     int imag;
     public:
-    ComplexNumbers(ComplexNumbers z) {
+    ComplexNumbers(ComplexNumbers &z) {
         real = z.real;
         imag = z.imag;
     }
