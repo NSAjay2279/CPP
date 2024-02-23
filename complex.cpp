@@ -13,7 +13,7 @@ class ComplexNumbers {
         real = z.real;
         imag = z.imag;
     }
-    void setV(int, int);
+    void setValues(int, int);
     bool isReal(void);
     ComplexNumbers findProduct(ComplexNumbers);
 
@@ -21,17 +21,36 @@ class ComplexNumbers {
     void display(void);
 };
 
+
+
+int main() {
+    ComplexNumbers a, b, c;
+    a.setValues(1, 2);  // mutator
+    b.setValues(3, 4);  // mutator
+    a.display();    // accessor
+    b.display();    // accessor
+    c = a.findProduct(b);
+
+    return 0;
+}
+
 void ComplexNumbers::display(void) {
     cout << real << " + i" << imag << endl;
 }
 void ComplexNumbers::setValues(int x, int y) {
-    re
+    real = x;
+    imag = y;
 }
-
-int main() {
-    ComplexNumbers b(2,3);
-    ComplexNumbers c(b);
-    c.display();
-
-    return 0;
+bool ComplexNumbers::isReal(void) {
+    if (imag==0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+ComplexNumbers ComplexNumbers::findProduct(ComplexNumbers x) {
+    ComplexNumbers z;
+    z.real = real*x.real - imag*x.imag;
+    z.imag = imag.x.real + real*x.imag;
+    return z;
 }
