@@ -13,11 +13,12 @@ class ComplexNumbers {
         real = z.real;
         imag = z.imag;
     }
-    void display(void) {
-        cout << real << " + i" << imag << endl;
-    }
+    void display(void);
 };
 
+void ComplexNumbers::display(void) {
+    cout << real << " + i" << imag << endl;
+}
 
 int main() {
     ComplexNumbers b(2,3);
