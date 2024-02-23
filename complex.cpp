@@ -5,7 +5,11 @@ class ComplexNumbers {
     int real;
     int imag;
     public:
-    ComplexNumbers(ComplexNumbers &z) {
+    ComplexNumbers(int x, int y) {
+        real = x;
+        imag = y;
+    }
+    ComplexNumbers(const ComplexNumbers &z) {
         real = z.real;
         imag = z.imag;
     }
@@ -14,7 +18,6 @@ class ComplexNumbers {
     }
 };
 
-complex_number adding_complex(complex_number, complex_number);
 
 int main() {
     ComplexNumbers b(2,3);
@@ -22,11 +25,4 @@ int main() {
     c.display();
 
     return 0;
-}
-
-complex_number adding_complex(complex_number a, complex_number b) {
-    complex_number outpt;
-    outpt.real = a.real + b.real;
-    outpt.imag = a.imag + b.imag;
-    return outpt;
 }
