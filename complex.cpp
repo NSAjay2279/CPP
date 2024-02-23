@@ -29,6 +29,8 @@ int main() {
     a.display();    // accessor
     b.display();    // accessor
     c = a.findProduct(b);
+    c.display();
+    cout << c.isReal() << endl;
 
     return 0;
 }
