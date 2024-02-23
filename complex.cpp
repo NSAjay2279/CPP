@@ -5,6 +5,10 @@ class ComplexNumbers {
     int real;
     int imag;
     public:
+    ComplexNumbers(void) {
+        real = 0;
+        imag = 0;
+    }
     ComplexNumbers(int x, int y) {
         real = x;
         imag = y;
@@ -52,6 +56,6 @@ bool ComplexNumbers::isReal(void) {
 ComplexNumbers ComplexNumbers::findProduct(ComplexNumbers x) {
     ComplexNumbers z;
     z.real = real*x.real - imag*x.imag;
-    z.imag = imag.x.real + real*x.imag;
+    z.imag = imag*x.real + real*x.imag;
     return z;
 }
