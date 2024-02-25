@@ -4,9 +4,6 @@ using namespace std;
 class Employee {
   private:
     string name;
-    string phone_no;
-    string job_post;
-    int age;
 
   public:
     friend ostream &operator<<(ostream &out, Employee &c);
@@ -14,8 +11,7 @@ class Employee {
     void operator=(Employee &);
 };
 
-int main()
-{
+int main() {
     Employee a, b;
     cin >> a;
     cout >> a;
@@ -24,10 +20,18 @@ int main()
 
     return 0;
 }
+ostream &operator<<(ostream &out, Employee &c) {
+    out << "--- EMPLOYEE RECORD ---" << endl;
+    out << "NAME: " << c.name << endl;
+    return out;
+}
 
-istream &operator>>(istream &in, Employee &c)
-{
+istream &operator>>(istream &in, Employee &c) {
     cout << "Enter name of employee" << endl;
     in >> c.name;
     return in;
+}
+
+void Employee::operator = (Employee& b) {
+    name = b.name;
 }
