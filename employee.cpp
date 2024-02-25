@@ -29,4 +29,5 @@ istream &operator>>(istream &in, Employee &c)
 {
     cout << "Enter name of employee" << endl;
     in >> c.name;
+    return in;
 }
