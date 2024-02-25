@@ -34,4 +34,5 @@ istream &operator>>(istream &in, Employee &c) {
 
 void Employee::operator = (Employee& b) {
     name = b.name;
+    return;
 }
