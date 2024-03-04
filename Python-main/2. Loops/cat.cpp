@@ -12,16 +12,14 @@ int get_number() {
     }
 }
 
-void meow(int n)
-{
+void meow(int n) {
     for (int i = 0; i < n; ++i)
     {
         cout << "meow" << endl;
     }
 }
 
-int main()
-{
+int main() {
     int number = get_number();
     meow(number);
     return 0;
