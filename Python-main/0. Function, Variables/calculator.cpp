@@ -2,13 +2,13 @@
 using namespace std;
 
 int square(int n) {
-	return n*n;
-	}
+    return n * n;
+}
 
 int main() {
-	int x;
-	cout << "what's x? ";
-	cin >> x;
-	cout << "x square is " << square(x) << endl;
-	return 0;
+    int x;
+    cout << "What's x? ";
+    cin >> x;
+    cout << "x squared is " << square(x) << endl;
+    return 0;
 }
