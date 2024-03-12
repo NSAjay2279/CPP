@@ -7,15 +7,15 @@ Window::Window()
 
 bool Window::init()
 {
-    return false;
+    return true;
 }
 
 bool Window::release()
 {
-    return false;
+    return true;
 }
 
 Window::~Window()
 {
-    
+
 }
