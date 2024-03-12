@@ -2,8 +2,9 @@ class Window
 {
     public:
         Window();
-        //In
+        //Initialize the window
         bool init()
+        //Release the window
         bool release();
         ~Window();
 }
