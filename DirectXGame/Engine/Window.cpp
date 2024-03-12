@@ -14,3 +14,8 @@ bool Window::release()
 {
     return false;
 }
+
+Window::~Window()
+{
+    
+}
