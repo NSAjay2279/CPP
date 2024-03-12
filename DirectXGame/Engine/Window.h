@@ -5,7 +5,7 @@ class Window
     public:
         Window();
         //Initialize the window
-        bool init()
+        bool init();
         //Release the window
         bool release();
         ~Window();
